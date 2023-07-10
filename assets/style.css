@@ -4,3 +4,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --tb-btn: #0061ff;
+    --tb-main: #b4d0e7;
+    --tb-particular: #3586ff;
+    --tb-designit: #a2d39b;
+    --tb-designit-border: #d1e9cd;
+    --tb-Asu: #61082b;
+    --tb-uf: #0093ce;
+    --tb-topps: #ff1c1c;
+    --tb-wbcr: #d5001f;
+    --tb-hearst: #b4d0e7;
+    --tb-lonelyp: #0d2481;
+    --tb-clear: #ffd830;
+    --tb-design-center: #f5f5f5;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.btn-blue {
+    background-color: var(--tb-btn);
+    color: white;
+    padding: 5px 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+
+}
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+a {
+    text-decoration: none;
+    padding: 0px 10px;
+    color: black;
+}
+
+.logo,
+.button {
+    text-align: center;
+    margin: 0 30px;
+}
+
+.logo-dropbox {
+    padding-top: 5px;
+}
