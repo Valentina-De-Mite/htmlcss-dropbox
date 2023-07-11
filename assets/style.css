@@ -49,48 +49,44 @@ body {
     padding-bottom: 50px;
 }
 
-.mrg-bottom {
+.mb {
     margin-bottom: 60px;
 }
 
-.mrg-bottom2 {
+.mb-2 {
     margin-bottom: 25px;
 }
 
-.mrg-bottom3 {
+.mb-3 {
     margin-bottom: 20px;
 }
-
-/* .mrg {
-    margin: 15px 15px;
-} */
 
 .brd-top-bot {
     border: 0.5px solid lightgrey;
     padding: 4px 0;
 }
 
-.mrg-top {
+.mt {
     margin-top: 250px;
 }
 
-.mrg-top2 {
+.mt-2 {
     margin-top: 60px;
 }
 
-.mrg-top3 {
+.mt-3 {
     margin-top: 30px;
 }
 
-.mrg-top4 {
+.mt-4 {
     margin-top: 150px;
 }
 
-.mrg-right {
+.mr {
     margin-right: 70px;
 }
 
-.mrg-right2 {
+.mr-2 {
     margin-right: 55px;
 }
 
