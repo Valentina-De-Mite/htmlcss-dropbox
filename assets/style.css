@@ -90,6 +90,10 @@ body {
     margin-right: 70px;
 }
 
+.mrg-right2 {
+    margin-right: 65px;
+}
+
 .flex {
     display: flex;
 }
@@ -142,6 +146,7 @@ body {
 .container {
     margin: auto;
     width: 40%;
+    flex-wrap: wrap;
 }
 
 .card-container {
@@ -257,6 +262,10 @@ header {
     width: 90%;
 }
 
+.col30-card {
+    justify-content: space-evenly;
+}
+
 .fa-user {
     font-size: 20px;
 }
@@ -277,6 +286,13 @@ header {
     margin-right: 15px;
 }
 
+.card-container>img {
+    width: 100%;
+}
 
+.col30>img {
+    width: 100%;
+}
 
+.col30
 /* #endregion main */
