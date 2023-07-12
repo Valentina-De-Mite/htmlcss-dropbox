@@ -57,6 +57,10 @@ body {
     padding: 10px 0;
 }
 
+.pd {
+    padding: 20px;
+}
+
 .pdg-b2 {
     padding-bottom: 40px;
 }
@@ -192,6 +196,15 @@ body {
     max-width: 1170px;
 }
 
+.container2 {
+    margin: auto;
+    width: 80%;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    justify-content: space-between;
+
+}
+
 .card-container {
     margin: auto;
     width: 95%;
@@ -306,13 +319,16 @@ header {
     align-items: start;
 }
 
-
-
-.col30 {
+.col33 {
     width: calc(100%/ 3);
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.col30 {
+    width: calc(100%/ 3);
+    flex-wrap: wrap;
 }
 
 .square {
@@ -378,9 +394,7 @@ header {
     width: 50%;
 }
 
-.col33 {
-    width: 33, 3%;
-}
+
 
 .col70 {
     width: 70%;
