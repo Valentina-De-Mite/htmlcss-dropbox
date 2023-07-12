@@ -502,14 +502,16 @@ footer {
 /* #region button */
 
 .btn-blue:hover {
+    border-radius: 0.5rem;
     border: 0.5px solid white;
     background-color: rgba(176, 176, 255, 0.865);
 }
 
 .btn-white:hover {
-    background-color: #3586ff;
+    background-color: #020202;
     color: white;
     border-color: white;
+    border-radius: 0.5rem;
 }
 
 
