@@ -66,6 +66,10 @@ body {
     padding-bottom: 50px;
 }
 
+.p5 {
+    padding: 50px;
+}
+
 .mb-t {
     margin: 200px 0;
 }
@@ -193,6 +197,7 @@ body {
     width: 95%;
 }
 
+
 .text-align-center {
     text-align: center;
 }
@@ -232,6 +237,9 @@ body {
 header {
     width: 100%;
     height: 100px;
+    background-color: white;
+    position: sticky;
+    top: 0;
 }
 
 .navbar {
@@ -244,6 +252,11 @@ header {
 .logo {
     justify-content: start;
     width: 50%;
+}
+
+.logo1 {
+    align-items: center;
+    margin: 50px;
 }
 
 .logo>a,
@@ -293,12 +306,9 @@ header {
     align-items: start;
 }
 
-.col30 {
-    width: 30%;
-    flex-wrap: wrap;
-}
 
-.col33 {
+
+.col30 {
     width: calc(100%/ 3);
     flex-wrap: wrap;
     justify-content: center;
@@ -307,11 +317,9 @@ header {
 
 .square {
     width: 50%;
-    height: 300px;
-    max-height: 100%;
+    aspect-ratio: 1;
     justify-content: center;
     align-items: center;
-
 }
 
 .asu {
@@ -331,10 +339,14 @@ header {
     background-color: var(--tb-designit);
 }
 
-.center {
+.square-center {
+    width: 100%;
+    aspect-ratio: 1;
+    align-items: center;
+    border: 1px solid rgb(228, 225, 225);
     background-color: var(--tb-design-center);
-    height: 600px;
 }
+
 
 .bicycle {
     background-color: var(--tb-wbcr);
@@ -419,6 +431,8 @@ header {
     margin: 46px 0;
 }
 
+
+
 .col40>button {
     margin-right: 15px;
 }
@@ -452,6 +466,38 @@ footer {
 }
 
 /* #endregion footer */
+
+/* #region animation navbar */
+
+/* #endregion animation navbar */
+.animation:hover {
+    border-top: 1px solid var(--tb-btn);
+    border-bottom: 1px solid var(--tb-btn);
+}
+
+/* #region animation main */
+
+/* #region button */
+
+.btn-blue:hover {
+    border: 0.5px solid white;
+    background-color: rgba(176, 176, 255, 0.865);
+}
+
+.btn-white:hover {
+    background-color: #3586ff;
+    color: white;
+    border-color: white;
+}
+
+
+
+/* #endregio button */
+
+/* #endregion animation main */
+
+
+
 
 /* #region animation faq */
 
