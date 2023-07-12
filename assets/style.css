@@ -74,7 +74,7 @@ body {
     padding: 50px;
 }
 
-.mb-t {
+.p6 .mb-t {
     margin: 200px 0;
 }
 
@@ -253,6 +253,7 @@ header {
     background-color: white;
     position: sticky;
     top: 0;
+
 }
 
 .navbar {
@@ -260,6 +261,7 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    overflow: visible;
 }
 
 .logo {
@@ -358,6 +360,7 @@ header {
 .square-center {
     width: 100%;
     aspect-ratio: 1;
+    padding: 50px;
     align-items: center;
     border: 1px solid rgb(228, 225, 225);
     background-color: var(--tb-design-center);
@@ -486,6 +489,7 @@ footer {
 /* #endregion animation navbar */
 .animation:hover {
     border-top: 1px solid var(--tb-btn);
+    padding: 10px 0;
     border-bottom: 1px solid var(--tb-btn);
 }
 
