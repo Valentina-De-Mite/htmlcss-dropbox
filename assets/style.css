@@ -74,7 +74,9 @@ body {
     padding: 50px;
 }
 
-.p6 .mb-t {
+
+
+.mb-t {
     margin: 200px 0;
 }
 
@@ -224,7 +226,7 @@ body {
 .colour-main1 {
     width: 100%;
     background-color: var(--tb-main);
-
+    padding: 100px 0;
 }
 
 .colour-white {
@@ -253,6 +255,8 @@ header {
     background-color: white;
     position: sticky;
     top: 0;
+    left: 0;
+    z-index: 1;
 
 }
 
