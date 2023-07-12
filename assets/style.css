@@ -131,7 +131,7 @@ body {
 }
 
 .nav-fs {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .title-fs {
@@ -207,6 +207,14 @@ body {
 
 }
 
+.container-ft {
+    margin: auto;
+    width: 80%;
+    flex-wrap: wrap;
+    max-width: 1550px;
+    padding: 40px 0;
+}
+
 .card-container {
     margin: auto;
     width: 95%;
@@ -226,7 +234,7 @@ body {
 .colour-main1 {
     width: 100%;
     background-color: var(--tb-main);
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .colour-white {
@@ -489,15 +497,24 @@ footer {
 /* #endregion footer */
 
 /* #region animation navbar */
-
-/* #endregion animation navbar */
 .animation:hover {
-    border-top: 1px solid var(--tb-btn);
+
     padding: 10px 0;
     border-bottom: 1px solid var(--tb-btn);
 }
 
+/* #endregion animation navbar */
+
+
 /* #region animation main */
+
+.square:hover {
+    box-shadow: inset 0 0 80px 50px rgba(255, 233, 233, 0.694);
+}
+
+.square-center:hover {
+    box-shadow: inset 0 0 100px 100px rgba(191, 221, 255, 0.521);
+}
 
 /* #region button */
 
